@@ -7,4 +7,4 @@ coverage/
 .module-cache
 .idea
 *.iml
-.vscode
+.vscodere
