@@ -1,13 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-
-const Pizza = (props) => {
-  return React.createElement(
-    "div", {}, [
-      React.createElement("h3", { key: "name" }, props.name),
-      React.createElement("p", { key: "desc" }, props.description)
-    ]);
-};
+import Pizza from "./Pizza.jsx";
 
 const App = () => {
   return React.createElement(
