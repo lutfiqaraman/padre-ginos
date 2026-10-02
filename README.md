@@ -47,7 +47,7 @@ padre-ginos/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/lutfiqaraman/padre-ginos.git
+git clone https://github.com/lutfiqaraman/papa-pizza.git
 cd padre-ginos
 ```
 
