@@ -8,13 +8,13 @@ const App = () => {
             <Pizza
                 name="Pepperoni"
                 description="pep, cheese, n staff"
-                image={"/api/public/pizzas/pepperoni.webp"}
+                image={"/backend/public/pizzas/pepperoni.webp"}
             />
 
             <Pizza
                 name="Hawaiian"
                 description="beef, pineapple n stuff"
-                image={"/api/public/pizzas/hawaiian.webp"}
+                image={"/backend/public/pizzas/hawaiian.webp"}
             />
         </div>
     )
