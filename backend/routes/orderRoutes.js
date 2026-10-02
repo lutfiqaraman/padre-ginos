@@ -1,5 +1,5 @@
 import {
-    getAllOrders,
+    getOrders,
     getOrder,
     createOrder,
     getPastOrdersList
@@ -8,7 +8,7 @@ import {
 export default async function orderRoutes(server) {
 
     server.get("/api/orders", async (req, res) => {
-        const orders = await getAllOrders();
+        const orders = await getOrders();
         res.send(orders);
     });
 

@@ -10,7 +10,7 @@ import {
     rollbackTransaction
 } from "../repositories/orderRepository.js";
 
-export async function getAllOrders() {
+export async function getOrders() {
     return getAllOrders();
 }
 
