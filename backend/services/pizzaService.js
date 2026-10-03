@@ -29,7 +29,7 @@ export async function getPizzas() {
             name: pizza.name,
             category: pizza.category,
             description: pizza.description,
-            image: `/public/pizzas/${pizza.pizza_type_id}.webp`,
+            image: `/pizzas/${pizza.pizza_type_id}.webp`,
             sizes
         };
     });
@@ -60,7 +60,7 @@ export async function getPizzaOfTheDay() {
         name: pizza.name,
         category: pizza.category,
         description: pizza.description,
-        image: `/public/pizzas/${pizza.id}.webp`,
+        image: `/pizzas/${pizza.id}.webp`,
         sizes: sizeObj,
     };
 }

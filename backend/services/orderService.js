@@ -27,7 +27,7 @@ export async function getOrder(id) {
 
     const orderItems = orderItemsRes.map(item =>
         Object.assign({}, item, {
-            image: `/public/pizzas/${item.pizzaTypeId}.webp`,
+            image: `/pizzas/${item.pizzaTypeId}.webp`,
             quantity: +item.quantity,
             price: +item.price
         })
